@@ -1,0 +1,18 @@
+weather-widget {
+    border: 1px solid #ccc;
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+  
+    &::part(tile) {
+      display: flex;
+      flex-direction: row;
+      & .country-title{
+          font-weight:bold;
+      }
+    }
+  }
+  .container{
+    background-coloer:red;
+  }
